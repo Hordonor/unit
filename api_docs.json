@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "de1b37ea-8de8-4c46-93a6-b9d0dfb14b88",
+		"name": "Unit API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "50493877",
+		"_collection_link": "https://hordonor-29920.postman.co/workspace/Hordonor's-Workspace~cbe67fc7-5b91-4815-8dfb-f8b50dbb187e/collection/50493877-de1b37ea-8de8-4c46-93a6-b9d0dfb14b88?action=share&source=collection_link&creator=50493877"
+	},
+	"item": [
+		{
+			"name": "Create User",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://api.example.com/users",
+					"protocol": "https",
+					"host": [
+						"api",
+						"example",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get Users",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.example.com/users",
+					"protocol": "https",
+					"host": [
+						"api",
+						"example",
+						"com"
+					],
+					"path": [
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
